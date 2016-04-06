@@ -2,4 +2,4 @@
 This is a public Repo for Bootstrap Code for Project 1
 
 
-This project is only HTML and CSS, you don't need an server configureations for this code.
+This project is only HTML and CSS, you don't need any server side installs.
