@@ -1,0 +1,120 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body { 
+	background-color: #DBEDF7;
+}
+	
+/************************* NAVIGATION *************************/
+/	
+.nav.navbar-nav li a {
+    color: #000000;
+}
+
+.nav.navbar-nav li a:hover{
+    color: #356C8A;
+}
+
+
+nav.navbar-default a.navbar-brand {
+	font-size: 24px;
+    color: #777;
+    font-family: 'Cinzel Decorative', cursive !important;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color: #356C8A;
+}
+
+ul.navbar-nav li.active{
+    color: #000000;
+   background: #d65c14;
+ }
+
+ nav.navbar {
+ 	width: 100%;
+ 	z-index:10000;
+ }
+
+ span img.brandLogo {
+ 	width: 40px;
+ 	height: auto;
+ 	margin-top: -17px;
+ }
+
+nav.myNav {
+    width: 100%;
+    top: -60px;
+    position: inherit;
+}
+nav.affix {
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+    -webkit-transition: all 2s ease-in;
+	transition: all .5s ease-in;
+	position: fixed;
+}
+
+div.nav_pull {
+    float: right;
+}
+
+/************************* FOOTER *************************/
+div.container div.footerRow {
+	font-size: 30px;
+	text-align: center;
+}
+
+i.fa {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+span.copyright {
+	font-size: 12px;
+	float: right;
+	margin-top: 16px;
+}
+
+img.accord_img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+table thead tr th h3.cal_Header {
+    text-align: center;
+}
+
+table tbody tr {
+    min-height: 50px;
+}
+
+/**************************** MODAL ************************/
+.modal-dialog {
+    margin: 13% auto 0 auto;
+}
+
+.modal-backdrop.in {
+    opacity: .6;
+}
+/**************************** END MODAL ************************/
+
+/**************************** CUSTOM MEDIA QUERIES ************************/
+@media (max-width: 767px) {
+    div.nav_pull {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    div.nav_pull {
+        float: right;
+        width: initial;
+    }
+}
